@@ -55,14 +55,6 @@ app.get("/posts/:postName", (req, res) => {
     }
     
   });
-  // if (posts.some(post => loadash.lowerCase(post.title) === requestedPost))
-  // {
-  //   res.render("post", {pageTitle : post.title, pageContent : post.post});
-  // }
-  // else
-  // {
-  //   res.render("post", {pageTitle : "No Post Found!", pageContent : "Post not available, try different post or check the spelling"});
-  // }
 });
 
 
